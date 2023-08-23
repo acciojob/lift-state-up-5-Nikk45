@@ -9,7 +9,8 @@ const Child=({setIsLoggedIn})=>{
 
     return (
         <>
-        <div>
+        <form>
+            <div>
             <label>Username:</label>
             <input type="text" placeholder="username" />
         </div>
@@ -19,6 +20,7 @@ const Child=({setIsLoggedIn})=>{
         </div>
 
         <button onClick={login}>Login</button>
+        </form>
         </>
     )
 }
